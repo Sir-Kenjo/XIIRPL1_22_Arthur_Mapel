@@ -15,7 +15,7 @@ module.exports = {
             }else{
                 res.json({
                     status:false,
-                    message: "Data masih kosong"
+                    message: "Data masih kosong!"
                 })
             }
         } catch (error) {
